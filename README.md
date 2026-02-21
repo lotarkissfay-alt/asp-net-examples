@@ -10,3 +10,5 @@ Examples for ASP.NET in .NET 1.1, IIS 5, and IE6
 - age, int
 3. Fill the table with some random values.
 4. Ensure the correct rights for IIS on the db, and table.
+
+## For `asp5.soap.lan` give also write access to IIS.
