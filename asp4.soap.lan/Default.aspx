@@ -2,6 +2,7 @@
 <%@ Import Namespace="System.Data.SqlClient" %>
 
 <script runat="server">  
+
   SqlDataReader sqlQuery() {
     string connStr = System.Configuration.ConfigurationSettings.AppSettings["MyConn"];
     
