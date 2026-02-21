@@ -1,19 +1,17 @@
 <%@ Page Language="C#" %>
 
 <script runat="server">
-  
-protected Hashtable GetServerInfo()
-{
-    Hashtable info          = new Hashtable();
-    info["Name"]            = "";
-    info["Server"]          = Request.ServerVariables["SERVER_SOFTWARE"];
-    info["ASP.NET version"] = Environment.Version.ToString();
-    info["Computer Name"]   = Environment.MachineName;
-    info["OS version"]      = Environment.OSVersion.ToString();
-    info["Current time"]    = DateTime.Now.ToString();
-    return info;
-}
-
+  protected Hashtable GetServerInfo()
+  {
+      Hashtable info          = new Hashtable();
+      info["Name"]            = "";
+      info["Server"]          = Request.ServerVariables["SERVER_SOFTWARE"];
+      info["ASP.NET version"] = Environment.Version.ToString();
+      info["Computer Name"]   = Environment.MachineName;
+      info["OS version"]      = Environment.OSVersion.ToString();
+      info["Current time"]    = DateTime.Now.ToString();
+      return info;
+  }
 </script>
 
 <!DOCTYPE HTML>
