@@ -1,7 +1,7 @@
 # asp-net-examples
 Examples for ASP.NET in .NET 1.1, IIS 5, and IE6
 
-> These examples are only for education purposes. Since they lack of security **don't use in production!**
+> These examples are only for education purposes. **Don't use them in production as is!**
 
 ## For `asp4.soap.lan` the following other steps are required.
 
