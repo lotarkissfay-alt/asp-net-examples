@@ -1,14 +1,7 @@
 <%@ Page Language="C#" %>
 <%@ Import Namespace="System.Data.SqlClient" %>
 
-<script runat="server">
-
-  /*
-   If you use AD authentication for MSSQL, this can test which user is IIS on that site.
-   
-   Response.Write(System.Security.Principal.WindowsIdentity.GetCurrent().Name);
-  */
-  
+<script runat="server">  
   SqlDataReader sqlQuery() {
     string connStr = System.Configuration.ConfigurationSettings.AppSettings["MyConn"];
     
