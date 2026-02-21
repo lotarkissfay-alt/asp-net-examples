@@ -5,6 +5,9 @@
     {
         Response.ContentType = "text/xml";
 
+        string name = null;
+        string age  = null;
+
         if (Request.HttpMethod == "GET") {
             name = Request.QueryString["name"];
             age  = Request.QueryString["age"];
