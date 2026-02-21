@@ -1,6 +1,8 @@
 # asp-net-examples
 Examples for ASP.NET in .NET 1.1, IIS 5, and IE6
 
+> These examples are only for education purposes. Since they lack of security **don't use in production!**
+
 ## For `asp4.soap.lan` the following other steps are required.
 
 1. Create a `db` in Microsoft SQL Server 2005.
