@@ -4,7 +4,7 @@
 <script runat="server">
 
   /*
-   If you use AD authentication for MSSQL, this can help to test which user is IIS.
+   If you use AD authentication for MSSQL, this can test which user is IIS on that site.
    
    Response.Write(System.Security.Principal.WindowsIdentity.GetCurrent().Name);
   */
