@@ -11,7 +11,7 @@
     SqlConnection conn = new SqlConnection(connStr);
     conn.Open();
 
-    SqlCommand cmd = new SqlCommand("SELECT * FROM szemely", conn);
+    SqlCommand cmd = new SqlCommand("SELECT * FROM legends", conn);
     return cmd.ExecuteReader();
   }
 
