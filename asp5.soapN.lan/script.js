@@ -23,8 +23,8 @@ function updateTable() {
 
     for (var i = 0; i < legends.length; i++) {
 
-        var name = legends[i].getElementsByTagName("name")[0].text;
-        var age = legends[i].getElementsByTagName("age")[0].text;
+        var name = legends[i].getElementsByTagName("name")[0].firstChild.nodeValue;
+        var age = legends[i].getElementsByTagName("age")[0].firstChild.nodeValue;
 
         var row = table.insertRow(-1);
 
