@@ -3,7 +3,11 @@
 
 <script runat="server">
 
-  //Response.Write(System.Security.Principal.WindowsIdentity.GetCurrent().Name);
+  /*
+   If you use AD authentication for MSSQL, this can help to test which user is IIS.
+   
+   Response.Write(System.Security.Principal.WindowsIdentity.GetCurrent().Name);
+  */
   
   SqlDataReader sqlQuery() {
     string connStr = System.Configuration.ConfigurationSettings.AppSettings["MyConn"];
