@@ -1,6 +1,7 @@
 <%@ Page Language="C#" %>
 
 <script runat="server">
+
   protected Hashtable GetServerInfo()
   {
       Hashtable info          = new Hashtable();
@@ -12,6 +13,7 @@
       info["Current time"]    = DateTime.Now.ToString();
       return info;
   }
+
 </script>
 
 <!DOCTYPE HTML>
