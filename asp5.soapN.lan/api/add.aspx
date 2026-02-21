@@ -1,7 +1,6 @@
 <%@ Page Language="C#" %>
 <%@ Import Namespace="System.Data.SqlClient" %>
 <script runat="server">
-
     void Page_Load(object sender, EventArgs e)
     {
         Response.ContentType = "text/xml";
