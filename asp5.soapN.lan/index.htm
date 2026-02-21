@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="windows-1252">
+    <title>ASP.NET 5.</title>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body bgcolor=olive text=white onload="updateTable()">
+    <font face="Comic Sans MS" size="2">
+    <h1 align="center">The legends of this gym</h1>
+    <table id="legendTable" align="center" bgcolor=black width=80% border=1>
+      <tr>
+        <td align="center" bgcolor=maroon><strong>The legend&#39;s name</strong></td>
+        <td align="center" bgcolor=maroon><strong>Age when became top</strong></td>
+      </tr>
+    </table>
+
+    <h3 align="center">Add new legend</h3>
+
+    <form method="post" action="api/add.aspx">
+      Name:<br>
+      <input type="text" name="name"><br><br>
+      Age:<br>
+      <input type="text" name="age"><br><br>
+      <input type="submit" value="Save">
+    </form>
+
+    <br/>
+    <marquee>Be the king of the gym like they were!</marquee>
+  </body>
+</html>
