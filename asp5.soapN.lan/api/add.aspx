@@ -19,7 +19,7 @@
 
         if (name == null || age == null)
         {
-            Response.Write("<status>error</status><message>Hiányzó paraméter.</message>");
+            Response.Write("<status>error</status><message>Missing parameter.</message>");
             return;
         }
 
